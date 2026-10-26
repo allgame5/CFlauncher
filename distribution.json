@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
   "discord": {
     "clientId": "1086936373057040395",
@@ -8,21 +8,40 @@
   },
   "servers": [
     {
-      "id": "Cubeflash 26.2",
+      "id": "Cubeflash-26.2-Fabric",
       "name": "CubeFlash",
       "description": "CubeFlash Network – Minecraft 26.2 (Fabric)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/Demo-1.19.4.png",
+      "icon": "https://cubeflash.net/favicon.ico",
       "version": "1.0.0",
       "address": "cubeflash.net",
       "minecraftVersion": "26.2",
       "discord": {
-        "shortId": "26.2 cf",
-        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
-        "largeImageText": "forge-vanilla"
+        "shortId": "CubeFlash",
+        "largeImageKey": "https://cubeflash.net/favicon.ico",
+        "largeImageText": "CubeFlash Network"
       },
       "mainServer": true,
-      "autoconnect": true,
-      "modules": []
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric Loader 0.19.3",
+          "type": "Fabric",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.2-fabric-0.19.3",
+              "name": "Fabric version manifest (Minecraft 26.2)",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://meta.fabricmc.net/v2/versions/loader/26.2/0.19.3/profile/json"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "Demo-1.20",
