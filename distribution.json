@@ -10,14 +10,14 @@
     {
       "id": "Cubeflash-26.2-Fabric",
       "name": "CubeFlash",
-      "description": "CubeFlash Network – Minecraft 26.2 (Fabric)",
+      "description": "CubeFlash Network – Minecraft 26.2 (Fabric Loader 0.19.3)",
       "icon": "https://cubeflash.net/favicon.ico",
       "version": "1.0.0",
       "address": "cubeflash.net",
       "minecraftVersion": "26.2",
       "discord": {
         "shortId": "CubeFlash",
-        "largeImageKey": "https://cubeflash.net/favicon.ico",
+        "largeImageKey": "big",
         "largeImageText": "CubeFlash Network"
       },
       "mainServer": true,
@@ -27,6 +27,7 @@
           "id": "net.fabricmc:fabric-loader:0.19.3",
           "name": "Fabric Loader 0.19.3",
           "type": "Fabric",
+          "classpath": true,
           "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
           },
@@ -51,11 +52,6 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -468,11 +464,6 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
