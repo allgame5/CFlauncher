@@ -13,7 +13,7 @@
       "description": "Mein Minecraft 1.21.1 Server mit Fabric",
       "icon": "https://cflauncher.vercel.app/icon.png",
       "version": "1.0.0",
-      "address": "cubeflash.net:25565",
+      "address": "cubeflash.net",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
       "autoconnect": false,
@@ -40,7 +40,7 @@
       },
       "modules": [
         {
-          "id": "net.minecraft:client:1.21.1",
+          "id": "net.minecraft:client",
           "name": "Minecraft 1.21.1",
           "type": "VersionManifest",
           "artifact": {
