@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mein Server - News</title>
+    <link>https://deine-domain.de</link>
+    <description>Neuigkeiten und Updates für meinen Minecraft Server</description>
+    <language>de</language>
+    <lastBuildDate>Tue, 03 Nov 2026 17:00:00 +0100</lastBuildDate>
+    <item>
+      <title>Server auf 1.21.1 aktualisiert</title>
+      <link>https://deine-domain.de/news/1.21.1-update</link>
+      <description>Der Server läuft jetzt auf Minecraft 1.21.1 mit Fabric 0.16.9</description>
+      <pubDate>Tue, 03 Nov 2026 17:00:00 +0100</pubDate>
+      <guid>https://deine-domain.de/news/1.21.1-update</guid>
+    </item>
+    <item>
+      <title>Neue Mods hinzugefügt</title>
+      <link>https://deine-domain.de/news/neue-mods</link>
+      <description>Wir haben neue QoL-Mods zum Modpack hinzugefügt</description>
+      <pubDate>Mon, 02 Nov 2026 14:30:00 +0100</pubDate>
+      <guid>https://deine-domain.de/news/neue-mods</guid>
+    </item>
+  </channel>
+</rss>
