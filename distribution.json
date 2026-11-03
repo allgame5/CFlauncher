@@ -1,0 +1,578 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "DEINE_DISCORD_CLIENT_ID",
+    "smallImageText": "Helios Launcher",
+    "smallImageKey": "helios_small"
+  },
+  "rss": "https://DEINE-DOMAIN.de/web/rss.xml",
+  "servers": [
+    {
+      "id": "mein-fabric-server",
+      "name": "Mein Fabric Server",
+      "description": "Mein Minecraft 1.21.1 Server mit Fabric",
+      "icon": "https://DEINE-DOMAIN.de/web/icon.png",
+      "version": "1.0.0",
+      "address": "play.dein-server.de:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=21.x",
+        "suggestedMajor": 21,
+        "distribution": "TEMURIN",
+        "ram": {
+          "recommended": 6144,
+          "minimum": 3072
+        },
+        "platformOptions": [
+          { "platform": "win32", "architecture": "x64", "distribution": "TEMURIN", "supported": ">=21.x", "suggestedMajor": 21 },
+          { "platform": "darwin", "architecture": "arm64", "distribution": "CORRETTO", "supported": ">=21.x", "suggestedMajor": 21 },
+          { "platform": "darwin", "architecture": "x64", "distribution": "CORRETTO", "supported": ">=21.x", "suggestedMajor": 21 },
+          { "platform": "linux", "architecture": "x64", "distribution": "TEMURIN", "supported": ">=21.x", "suggestedMajor": 21 },
+          { "platform": "linux", "architecture": "arm64", "distribution": "TEMURIN", "supported": ">=21.x", "suggestedMajor": 21 }
+        ]
+      },
+      "discord": {
+        "shortId": "MFAB",
+        "largeImageText": "Mein Fabric Server 1.21.1",
+        "largeImageKey": "mein_fabric_large"
+      },
+      "modules": [
+        {
+          "id": "net.minecraft:client:1.21.1",
+          "name": "Minecraft 1.21.1",
+          "type": "VersionManifest",
+          "artifact": {
+            "url": "https://launchermeta.mojang.com/v1/products/java-runtime/2ec0cc96c44e5a76b9c8b7c3d9535c4a1a8c4d2a/1.21.1.json",
+            "size": 123456
+          }
+        },
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader 0.16.9",
+          "type": "Fabric",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
+            "size": 2345678,
+            "MD5": "HIER_MD5_VON_FABRIC_LOADER_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric-api:fabric-api:0.98.0+1.21.1",
+          "name": "Fabric API 0.98.0",
+          "type": "FabricMod",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.98.0+1.21.1/fabric-api-0.98.0+1.21.1.jar",
+            "size": 12345678,
+            "MD5": "HIER_MD5_VON_FABRIC_API_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.fabricmc:intermediary:1.21.1",
+          "name": "Intermediary Mappings 1.21.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
+            "size": 234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.fabricmc:yarn:1.21.1+build.1",
+          "name": "Yarn Mappings 1.21.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/yarn/1.21.1+build.1/yarn-1.21.1+build.1.jar",
+            "size": 3456789,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.google.guava:guava:33.3.1-jre",
+          "name": "Guava 33.3.1-jre",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar",
+            "size": 3124567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.15.0",
+          "name": "Commons Lang3 3.15.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar",
+            "size": 587432,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "commons-io:commons-io:2.16.1",
+          "name": "Commons IO 2.16.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar",
+            "size": 312456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "commons-codec:commons-codec:1.16.0",
+          "name": "Commons Codec 1.16.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar",
+            "size": 298743,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-api:2.23.1",
+          "name": "Log4j API 2.23.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-core:2.23.1",
+          "name": "Log4j Core 2.23.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar",
+            "size": 1876543,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.23.1",
+          "name": "Log4j SLF4J Impl 2.23.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1.jar",
+            "size": 56789,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.13",
+          "name": "SLF4J API 2.0.13",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar",
+            "size": 34567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-common:4.1.108.Final",
+          "name": "Netty Common 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-common/4.1.108.Final/netty-common-4.1.108.Final.jar",
+            "size": 189234,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-buffer:4.1.108.Final",
+          "name": "Netty Buffer 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.1.108.Final/netty-buffer-4.1.108.Final.jar",
+            "size": 892345,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-codec:4.1.108.Final",
+          "name": "Netty Codec 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-codec/4.1.108.Final/netty-codec-4.1.108.Final.jar",
+            "size": 567890,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-handler:4.1.108.Final",
+          "name": "Netty Handler 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.1.108.Final/netty-handler-4.1.108.Final.jar",
+            "size": 1234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-transport:4.1.108.Final",
+          "name": "Netty Transport 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.1.108.Final/netty-transport-4.1.108.Final.jar",
+            "size": 456789,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "io.netty:netty-resolver:4.1.108.Final",
+          "name": "Netty Resolver 4.1.108",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.1.108.Final/netty-resolver-4.1.108.Final.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.google.code.gson:gson:2.10.1",
+          "name": "Gson 2.10.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+            "size": 298745,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:authlib:3.1.43",
+          "name": "Authlib 3.1.43",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/authlib/3.1.43/authlib-3.1.43.jar",
+            "size": 145678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:brigadier:1.2.3",
+          "name": "Brigadier 1.2.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.2.3/brigadier-1.2.3.jar",
+            "size": 89234,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:datafixerupper:6.0.10",
+          "name": "DatafixerUpper 6.0.10",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.10/datafixerupper-6.0.10.jar",
+            "size": 1234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:logging:1.0.0",
+          "name": "Mojang Logging 1.0.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/logging/1.0.0/logging-1.0.0.jar",
+            "size": 12345,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:blocklist:1.0.10",
+          "name": "Blocklist 1.0.10",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+            "size": 23456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:patchy:2.2.10",
+          "name": "Patchy 2.2.10",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+            "size": 67890,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "oshi-project:oshi-core:6.5.3",
+          "name": "OSHI Core 6.5.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/oshi-project/oshi-core/6.5.3/oshi-core-6.5.3.jar",
+            "size": 345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.java.jinput:jinput:2.0.9",
+          "name": "JInput 2.0.9",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.9/jinput-2.0.9.jar",
+            "size": 234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.java.jutils:jutils:1.0.0",
+          "name": "JUtils 1.0.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+            "size": 12345,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl:3.3.3",
+          "name": "LWJGL 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar",
+            "size": 567890,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-glfw:3.3.3",
+          "name": "LWJGL GLFW 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar",
+            "size": 234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-opengl:3.3.3",
+          "name": "LWJGL OpenGL 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar",
+            "size": 345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-openal:3.3.3",
+          "name": "LWJGL OpenAL 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-stb:3.3.3",
+          "name": "LWJGL STB 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-tinyfd:3.3.3",
+          "name": "LWJGL tinyfd 3.3.3",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar",
+            "size": 89234,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-glfw:3.3.3:natives-windows",
+          "name": "LWJGL GLFW Natives Windows",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows.jar",
+            "size": 1234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-opengl:3.3.3:natives-windows",
+          "name": "LWJGL OpenGL Natives Windows",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar",
+            "size": 2345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-openal:3.3.3:natives-windows",
+          "name": "LWJGL OpenAL Natives Windows",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows.jar",
+            "size": 345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-stb:3.3.3:natives-windows",
+          "name": "LWJGL STB Natives Windows",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows.jar",
+            "size": 234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.lwjgl:lwjgl-tinyfd:3.3.3:natives-windows",
+          "name": "LWJGL tinyfd Natives Windows",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.ibm.icu:icu4j:73.2",
+          "name": "ICU4J 73.2",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar",
+            "size": 12345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:java_bridge:1.1.6",
+          "name": "Java Bridge 1.1.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/java_bridge/1.1.6/java_bridge-1.1.6.jar",
+            "size": 34567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:japarser:1.1.0",
+          "name": "Japarser 1.1.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/japarser/1.1.0/japarser-1.1.0.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "com.mojang:mojangson:1.0.0",
+          "name": "Mojangson 1.0.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/com/mojang/mojangson/1.0.0/mojangson-1.0.0.jar",
+            "size": 23456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+          "name": "JOpt Simple 5.0.4",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+            "size": 89234,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm:9.6",
+          "name": "ASM 9.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.6/asm-9.6.jar",
+            "size": 345678,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-commons:9.6",
+          "name": "ASM Commons 9.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar",
+            "size": 234567,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-tree:9.6",
+          "name": "ASM Tree 9.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-analysis:9.6",
+          "name": "ASM Analysis 9.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar",
+            "size": 123456,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-util:9.6",
+          "name": "ASM Util 9.6",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar",
+            "size": 89234,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "org.apache.commons:commons-compress:1.26.0",
+          "name": "Commons Compress 1.26.0",
+          "type": "Library",
+          "artifact": {
+            "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar",
+            "size": 567890,
+            "MD5": "HIER_MD5_EINTRAGEN"
+          }
+        },
+        {
+          "id": "mein-fabric-mod",
+          "name": "Mein Fabric Mod",
+          "type": "File",
+          "required": { "value": false, "def": true },
+          "artifact": {
+            "url": "https://DEINE-DOMAIN.de/web/mods/mein-fabric-mod-1.0.0.jar",
+            "size": 1048576,
+            "MD5": "HIER_MD5_VON_DEINEM_MOD_EINTRAGEN",
+            "path": "mods/mein-fabric-mod-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mein-resourcepack",
+          "name": "Mein Resource Pack",
+          "type": "File",
+          "required": { "value": false, "def": false },
+          "artifact": {
+            "url": "https://DEINE-DOMAIN.de/web/resourcepacks/mein-pack.zip",
+            "size": 5242880,
+            "MD5": "HIER_MD5_VON_RESOURCEPACK_EINTRAGEN",
+            "path": "resourcepacks/mein-pack.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
