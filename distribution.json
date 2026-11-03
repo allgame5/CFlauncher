@@ -2,18 +2,18 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "DEINE_DISCORD_CLIENT_ID",
-    "smallImageText": "Helios Launcher",
-    "smallImageKey": "helios_small"
+    "smallImageText": "CFlauncher",
+    "smallImageKey": "cfl"
   },
-  "rss": "https://DEINE-DOMAIN.de/web/rss.xml",
+  "rss": "https://cflauncher.vercel.app/rss.xml",
   "servers": [
     {
       "id": "mein-fabric-server",
       "name": "Mein Fabric Server",
       "description": "Mein Minecraft 1.21.1 Server mit Fabric",
-      "icon": "https://DEINE-DOMAIN.de/web/icon.png",
+      "icon": "https://cflauncher.vercel.app/icon.png",
       "version": "1.0.0",
-      "address": "play.dein-server.de:25565",
+      "address": "cubeflash.net:25565",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
       "autoconnect": false,
