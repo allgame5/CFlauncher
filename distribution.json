@@ -1695,6 +1695,33 @@
           }
         },
         {
+          "id": "entitymodelfeatures:fabric:3.0.17",
+          "name": "Entity Model Features 3.0.17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 511182,
+            "url": "https://cflauncher.vercel.app/mods/entity_model_features_26.1-fabric-3.0.17.jar"
+          }
+        },
+        {
+          "id": "entitytexturefeatures:fabric:7.0.13",
+          "name": "Entity Texture Features 7.0.13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 722124,
+            "url": "https://cflauncher.vercel.app/mods/entity_texture_features_26.1-fabric-7.0.13.jar"
+          }
+        },
+        {
+          "id": "modmenu:fabric:18.0.0-alpha.8",
+          "name": "ModMenu 18.0.0-alpha.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 847389,
+            "url": "https://cflauncher.vercel.app/mods/modmenu-18.0.0-alpha.8.jar"
+          }
+        },
+        {
           "id": "resourcepack:LowFire",
           "name": "LowFire",
           "type": "ResourcePack",
