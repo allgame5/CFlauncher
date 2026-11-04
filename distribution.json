@@ -1666,6 +1666,51 @@
             "size": 2404855,
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.145.1+26.1/fabric-api-0.145.1+26.1.jar"
           }
+        },
+        {
+          "id": "appleskin:fabric:3.0.10",
+          "name": "AppleSkin 3.0.10",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181584,
+            "url": "https://cflauncher.vercel.app/mods/appleskin-fabric-mc26.1.2-3.0.10.jar"
+          }
+        },
+        {
+          "id": "iris:fabric:1.11.4+mc26.1.2",
+          "name": "Iris 1.11.4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2792203,
+            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.11.4+mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "sodium:fabric:0.8.9+mc26.1.1",
+          "name": "Sodium 0.8.9",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1810286,
+            "url": "https://cflauncher.vercel.app/mods/sodium-fabric-0.8.9+mc26.1.1.jar"
+          }
+        },
+        {
+          "id": "resourcepack:LowFire",
+          "name": "LowFire",
+          "type": "ResourcePack",
+          "artifact": {
+            "size": 42760,
+            "url": "https://cflauncher.vercel.app/resourcepacks/LowFire.zip"
+          }
+        },
+        {
+          "id": "resourcepack:LowShield",
+          "name": "LowShield",
+          "type": "ResourcePack",
+          "artifact": {
+            "size": 3930,
+            "url": "https://cflauncher.vercel.app/resourcepacks/LowShield.zip"
+          }
         }
       ]
     }
