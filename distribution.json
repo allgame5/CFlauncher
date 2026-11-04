@@ -1677,21 +1677,21 @@
           }
         },
         {
-          "id": "iris:fabric:1.10.8+mc1.21.11",
+          "id": "iris:fabric:1.10.8+mc26.1",
           "name": "Iris 1.10.8",
           "type": "FabricMod",
           "artifact": {
-            "size": 2807718,
-            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc1.21.11.jar"
+            "size": 2799211,
+            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc26.1.jar"
           }
         },
         {
-          "id": "sodium:fabric:0.8.9+mc26.1.1",
-          "name": "Sodium 0.8.9",
+          "id": "sodium:fabric:0.8.7+mc26.1",
+          "name": "Sodium 0.8.7",
           "type": "FabricMod",
           "artifact": {
-            "size": 1810286,
-            "url": "https://cflauncher.vercel.app/mods/sodium-fabric-0.8.9+mc26.1.1.jar"
+            "size": 1659314,
+            "url": "https://cflauncher.vercel.app/mods/sodium-fabric-0.8.7+mc26.1.jar"
           }
         },
         {
