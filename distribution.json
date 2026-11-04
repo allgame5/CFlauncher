@@ -1677,12 +1677,12 @@
           }
         },
         {
-          "id": "iris:fabric:1.10.8+mc26.1",
+          "id": "iris:fabric:1.10.8+mc1.21.11",
           "name": "Iris 1.10.8",
           "type": "FabricMod",
           "artifact": {
-            "size": 2799211,
-            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc26.1.jar"
+            "size": 2807718,
+            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc1.21.11.jar"
           }
         },
         {
