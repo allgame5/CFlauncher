@@ -1671,6 +1671,10 @@
           "id": "appleskin:fabric:3.0.10",
           "name": "AppleSkin 3.0.10",
           "type": "FabricMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 181584,
             "url": "https://cflauncher.vercel.app/mods/appleskin-fabric-mc26.1.2-3.0.10.jar"
@@ -1681,6 +1685,10 @@
           "name": "Iris 1.10.8",
           "type": "FabricMod",
           "enabled": false,
+          "required": {
+            "value": false,
+            "def": false
+          },
           "artifact": {
             "size": 2799211,
             "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc26.1.jar"
@@ -1690,6 +1698,10 @@
           "id": "sodium:fabric:0.8.7+mc26.1",
           "name": "Sodium 0.8.7",
           "type": "FabricMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 1659314,
             "url": "https://cflauncher.vercel.app/mods/sodium-fabric-0.8.7+mc26.1.jar"
@@ -1699,6 +1711,10 @@
           "id": "entitymodelfeatures:fabric:3.0.17",
           "name": "Entity Model Features 3.0.17",
           "type": "FabricMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 511182,
             "url": "https://cflauncher.vercel.app/mods/entity_model_features_26.1-fabric-3.0.17.jar"
@@ -1708,6 +1724,10 @@
           "id": "entitytexturefeatures:fabric:7.0.13",
           "name": "Entity Texture Features 7.0.13",
           "type": "FabricMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 722124,
             "url": "https://cflauncher.vercel.app/mods/entity_texture_features_26.1-fabric-7.0.13.jar"
@@ -1717,6 +1737,10 @@
           "id": "modmenu:fabric:18.0.0-alpha.8",
           "name": "ModMenu 18.0.0-alpha.8",
           "type": "FabricMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 847389,
             "url": "https://cflauncher.vercel.app/mods/modmenu-18.0.0-alpha.8.jar"
