@@ -1680,33 +1680,8 @@
             "url": "https://cflauncher.vercel.app/mods/appleskin-fabric-mc26.1.2-3.0.10.jar"
           }
         },
-        {
-          "id": "iris:fabric:1.10.8+mc26.1",
-          "name": "Iris 1.10.8",
-          "type": "FabricMod",
-          "enabled": false,
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 2799211,
-            "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc26.1.jar"
-          }
-        },
-        {
-          "id": "sodium:fabric:0.8.7+mc26.1",
-          "name": "Sodium 0.8.7",
-          "type": "FabricMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1659314,
-            "url": "https://cflauncher.vercel.app/mods/sodium-fabric-0.8.7+mc26.1.jar"
-          }
-        },
+
+
         {
           "id": "entitymodelfeatures:fabric:3.0.17",
           "name": "Entity Model Features 3.0.17",
