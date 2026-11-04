@@ -1666,36 +1666,6 @@
             "size": 2404855,
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.145.1+26.1/fabric-api-0.145.1+26.1.jar"
           }
-        },
-        {
-          "id": "mein-fabric-mod",
-          "name": "Mein Fabric Mod",
-          "type": "File",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1048576,
-            "MD5": "HIER_MD5_VON_DEINEM_MOD_EINTRAGEN",
-            "url": "https://cflauncher.vercel.app/mods/mein-fabric-mod-1.0.0.jar",
-            "path": "mods/mein-fabric-mod-1.0.0.jar"
-          }
-        },
-        {
-          "id": "mein-resourcepack",
-          "name": "Mein Resource Pack",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 5242880,
-            "MD5": "HIER_MD5_VON_RESOURCEPACK_EINTRAGEN",
-            "url": "https://cflauncher.vercel.app/resourcepacks/mein-pack.zip",
-            "path": "resourcepacks/mein-pack.zip"
-          }
         }
       ]
     }
