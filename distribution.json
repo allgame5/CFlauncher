@@ -1680,6 +1680,7 @@
           "id": "iris:fabric:1.10.8+mc26.1",
           "name": "Iris 1.10.8",
           "type": "FabricMod",
+          "enabled": false,
           "artifact": {
             "size": 2799211,
             "url": "https://cflauncher.vercel.app/mods/iris-fabric-1.10.8+mc26.1.jar"
