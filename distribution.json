@@ -8,9 +8,9 @@
   "rss": "https://cflauncher.vercel.app/rss.xml",
   "servers": [
     {
-      "id": "mein-fabric-server",
-      "name": "Mein Fabric Server",
-      "description": "Mein Minecraft 26.1 Server mit Fabric",
+      "id": "cubeflash",
+      "name": "Cubeflash.net",
+      "description": "Connect direct to cubeflash.net",
       "icon": "https://cflauncher.vercel.app/icon.png",
       "version": "1.0.0",
       "address": "cubeflash.net",
