@@ -16,7 +16,7 @@
       "address": "cubeflash.net",
       "minecraftVersion": "26.1",
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "javaOptions": {
         "supported": ">=25.x",
         "suggestedMajor": 25,
